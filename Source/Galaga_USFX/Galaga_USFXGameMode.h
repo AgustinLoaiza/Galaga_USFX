@@ -50,10 +50,11 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+
 	void Tick(float DeltaTime) override;
 
 	TArray <ANaveEnemiga*> TANavesEnemigas;
-	TArray<ANaveEnemigaCaza*>TANavesEnemigasCaza; //se alamacena direcciones de objetos de nave enemiga caza 
+	TArray<ANaveEnemigaCaza*>TANavesEnemigasCaza; //Estos punteros alamacenan direcciones de objetos de nave enemiga caza 
 	TArray<ANaveEnemigaTransporte*>TANavesEnemigasTransporte;
 	TArray<ANaveEnemigaEspia*>TANavesEnemigasEspia;
 
