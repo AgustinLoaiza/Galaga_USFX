@@ -13,3 +13,35 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Galaga_USFXPawn.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemiga.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemiga.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemigaCaza.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemigaCaza.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemigaEspia.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemigaEspia.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemigaNodriza.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemigaNodriza.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemigaReabastecimiento.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemigaReabastecimiento.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemigaTransporte.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemigaTransporte.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaCazaVieja.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaCazaVieja.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaCazaModerna.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaCazaModerna.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaEspiaComun.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaEspiaComun.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaEspiaAvanzado.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaEspiaAvanzado.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaNodrizaBasico.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaNodrizaBasico.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaNodrizaDroide.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaNodrizaDroide.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaReabastecimientoC.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaReabastecimientoC.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaReabastecimientoG.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaReabastecimientoG.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaTransporteNormal.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaTransporteNormal.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaTransporte3000.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaTransporte3000.generated.h
