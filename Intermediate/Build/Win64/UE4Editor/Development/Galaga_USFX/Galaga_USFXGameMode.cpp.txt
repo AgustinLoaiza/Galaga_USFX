@@ -45,3 +45,5 @@ C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEn
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaTransporteNormal.generated.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaTransporte3000.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaTransporte3000.generated.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\Meteoro.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Meteoro.generated.h

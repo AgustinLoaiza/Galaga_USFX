@@ -20,7 +20,8 @@
 #include "MyNaveEnemigaReabastecimientoG.h"
 #include "MyNaveEnemigaTransporteNormal.h"
 #include "MyNaveEnemigaTransporte3000.h"
-
+//Meteoros
+#include "Meteoro.h"
 
 
 AGalaga_USFXGameMode::AGalaga_USFXGameMode()
@@ -48,6 +49,7 @@ void AGalaga_USFXGameMode::BeginPlay()
 	FVector ubicacionInicialNavesTransportes3000 = FVector(-100.0f, -200.0f, 250.0);
 
 	FRotator rotacionNave = FRotator(0.0f, 0.0f, 0.0f);
+	FRotator rotacionMeteoro = FRotator(0.0f, 0.0f, 0.0f);
 
 	//Generador de naves por medio de ciclos
 	UWorld* const World = GetWorld();
@@ -107,10 +109,16 @@ void AGalaga_USFXGameMode::BeginPlay()
 			ANaveEnemigaTransporte* NaveEnemigaTransporteTemporal = World->SpawnActor<ANaveEnemigaTransporte>(PosicionNaveActual, rotacionNave);
 			TANavesEnemigas.Push(NaveEnemigaTransporteTemporal);
 		}
+
+		// Laboratorio, implementacion del TMap generando meteoros
+
+		for (int i = 0; i < 5; i++)
+		{
+			FVector SpawnLocation = FVector(FMath::RandRange(-600.0f, -500.0f), FMath::RandRange(-1000.0f, 1000.0f), 250.0f);
+			AMeteoro* NewMeteoro = GetWorld()->SpawnActor<AMeteoro>(AMeteoro::StaticClass(), SpawnLocation, FRotator::ZeroRotator);
+			Meteoros.Add(SpawnLocation, NewMeteoro);
+		}
 		TiempoTranscurrido = 0;
-
-
-
 	}
 }
 
@@ -130,9 +138,10 @@ void AGalaga_USFXGameMode::Tick(float DeltaTime)
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Entero: %d"), numeroEnemigo));
 
 		}
-		//TANavesEnemigas[numeroEnemigo]->PrimaryActorTick.bCanEverTick = false;
 		TANavesEnemigas[numeroEnemigo]->SetVelocidad(0);
 	}
 }
+
+
 	
 

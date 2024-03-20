@@ -60,6 +60,9 @@ public:
 
 private:
 	int TiempoTranscurrido = 0;
+
+public:
+	TMap<FVector, AActor*>Meteoros;
 };
 
 
