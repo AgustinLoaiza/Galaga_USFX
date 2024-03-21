@@ -22,11 +22,13 @@ class ANaveEnemigaReabastecimientoG;
 class ANaveEnemigaTransporte;
 class ANaveEnemigaTransporteNormal;
 class ANaveEnemigaTransporte3000;
+class AMeteoro;
+class ACometa;
 
 UCLASS(MinimalAPI)
 class AGalaga_USFXGameMode : public AGameModeBase
 {
-	GENERATED_BODY()
+	GENERATED_BODY() 
 
 public:
 	AGalaga_USFXGameMode();
@@ -62,7 +64,7 @@ private:
 	int TiempoTranscurrido = 0;
 
 public:
-	TMap<FVector, AActor*>Meteoros;
+	TMap<FVector, AActor*>MeteorosCometas;
 };
 
 

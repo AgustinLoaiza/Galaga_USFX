@@ -20,8 +20,9 @@
 #include "MyNaveEnemigaReabastecimientoG.h"
 #include "MyNaveEnemigaTransporteNormal.h"
 #include "MyNaveEnemigaTransporte3000.h"
-//Meteoros
+//Meteoros y Cometas
 #include "Meteoro.h"
+#include "Cometa.h"
 
 
 AGalaga_USFXGameMode::AGalaga_USFXGameMode()
@@ -110,13 +111,22 @@ void AGalaga_USFXGameMode::BeginPlay()
 			TANavesEnemigas.Push(NaveEnemigaTransporteTemporal);
 		}
 
-		// Laboratorio, implementacion del TMap generando meteoros
+		// Laboratorio, implementacion del TMap generando meteoros y cometas
 
+		//Insertar Meteoros
 		for (int i = 0; i < 5; i++)
 		{
 			FVector SpawnLocation = FVector(FMath::RandRange(-600.0f, -500.0f), FMath::RandRange(-1000.0f, 1000.0f), 250.0f);
 			AMeteoro* NewMeteoro = GetWorld()->SpawnActor<AMeteoro>(AMeteoro::StaticClass(), SpawnLocation, FRotator::ZeroRotator);
-			Meteoros.Add(SpawnLocation, NewMeteoro);
+			MeteorosCometas.Add(SpawnLocation, NewMeteoro);
+		}
+
+		//Insertar Cometas en el TMap
+		for (int i = 0; i < 3; i++)
+		{
+			FVector SpawnLocation = FVector(FMath::RandRange(-400.0f, 0.0f), FMath::RandRange(-1000.0f, 1000.0f), 250.0f);
+			ACometa* NewObstacle = GetWorld()->SpawnActor<ACometa>(ACometa::StaticClass(), SpawnLocation, FRotator::ZeroRotator);
+			MeteorosCometas.Add(SpawnLocation, NewObstacle);
 		}
 		TiempoTranscurrido = 0;
 	}
@@ -127,19 +137,19 @@ void AGalaga_USFXGameMode::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	TiempoTranscurrido++;
 
-	if (TiempoTranscurrido >= 100)
-	{
-		int numeroEnemigo = FMath::RandRange(0, 9);
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Hola estoy aqui")));
+	//if (TiempoTranscurrido >= 100)
+	//{
+		//int numeroEnemigo = FMath::RandRange(0, 9);
+		//if (GEngine)
+		//{
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Hola estoy aqui")));
 
 
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Entero: %d"), numeroEnemigo));
+			//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Entero: %d"), numeroEnemigo));
 
-		}
-		TANavesEnemigas[numeroEnemigo]->SetVelocidad(0);
-	}
+		//}
+		//TANavesEnemigas[numeroEnemigo]->SetVelocidad(0);
+	//}
 }
 
 
