@@ -23,6 +23,8 @@
 //Meteoros y Cometas
 #include "Meteoro.h"
 #include "Cometa.h"
+//Se incluye el componente de actor
+#include "ComponenteMovimientoNaves.h"
 
 
 AGalaga_USFXGameMode::AGalaga_USFXGameMode()

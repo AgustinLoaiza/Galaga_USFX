@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Galaga_USFX.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A8236C0B-2AFE-4147-8E97-6F29644EFB81}</UniqueIdentifier>
+      <UniqueIdentifier>{CF720D5F-585D-4DD4-9272-53DCBE570BB5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Galaga_USFX.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FF3FAD41-AEDB-4E38-A6CD-8104792E3A13}</UniqueIdentifier>
+      <UniqueIdentifier>{77DF740F-19C9-46C4-9281-F425E6B3C437}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -32,12 +32,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Galaga_USFX">
-      <UniqueIdentifier>{C1F03A17-9912-4979-AF6C-FB344C730F0E}</UniqueIdentifier>
+      <UniqueIdentifier>{688AC522-CEF2-4959-BA61-D9AF5D19CA73}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Galaga_USFX\Cometa.cpp">
       <Filter>Source\Galaga_USFX</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Galaga_USFX\Cometa.h">
+      <Filter>Source\Galaga_USFX</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_USFX\ComponenteMovimientoNaves.cpp">
+      <Filter>Source\Galaga_USFX</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_USFX\ComponenteMovimientoNaves.h">
       <Filter>Source\Galaga_USFX</Filter>
     </ClInclude>
     <None Include="..\..\Source\Galaga_USFX\Galaga_USFX.Build.cs">
