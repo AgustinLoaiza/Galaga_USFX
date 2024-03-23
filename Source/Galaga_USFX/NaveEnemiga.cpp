@@ -15,12 +15,19 @@ ANaveEnemiga::ANaveEnemiga()
 	mallaNaveEnemiga->SetupAttachment(RootComponent);
 	RootComponent = mallaNaveEnemiga;
 	velocidad = 1;
+
+	// Inicializa el componente de movimiento de naves
+	MovimientoNavesComponent = CreateDefaultSubobject<UComponenteMovimientoNaves>(TEXT("MovimientoNavesComponent"));
+
+	// Establece el componente de movimiento como tickeable
+	MovimientoNavesComponent->PrimaryComponentTick.bCanEverTick = true;
+
 }
 
 // Called when the game starts or when spawned
 void ANaveEnemiga::BeginPlay()
 {
-	Super::BeginPlay();
+	Super::BeginPlay();   
 	
 }
 
@@ -29,5 +36,8 @@ void ANaveEnemiga::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// Llamar al método de tick del componente de movimiento
+	MovimientoNavesComponent->TickComponent(DeltaTime, ELevelTick::LEVELTICK_TimeOnly, nullptr); 
+	 
 }
 

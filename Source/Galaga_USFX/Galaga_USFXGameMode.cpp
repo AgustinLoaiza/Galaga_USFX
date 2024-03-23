@@ -31,6 +31,8 @@ AGalaga_USFXGameMode::AGalaga_USFXGameMode()
 {
 	// set default pawn class to our character class
 	DefaultPawnClass = AGalaga_USFXPawn::StaticClass();
+
+
 }
 
 void AGalaga_USFXGameMode::BeginPlay()

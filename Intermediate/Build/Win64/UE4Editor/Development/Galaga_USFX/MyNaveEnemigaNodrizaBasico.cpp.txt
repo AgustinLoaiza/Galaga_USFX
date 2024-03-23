@@ -2,6 +2,8 @@ C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\MyNaveEnemigaNodrizaBasico.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemigaNodriza.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\NaveEnemiga.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Source\Galaga_USFX\ComponenteMovimientoNaves.h
+C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\ComponenteMovimientoNaves.generated.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemiga.generated.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEnemigaNodriza.generated.h
 C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\MyNaveEnemigaNodrizaBasico.generated.h

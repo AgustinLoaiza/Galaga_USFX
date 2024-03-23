@@ -11,7 +11,7 @@ UComponenteMovimientoNaves::UComponenteMovimientoNaves()
 	PrimaryComponentTick.bCanEverTick = true;
 
 	// ...
-	MovimientoComun = 5;
+	MovimientoComun = 2;
 }
 
 
@@ -34,19 +34,14 @@ void UComponenteMovimientoNaves::TickComponent(float DeltaTime, ELevelTick TickT
 	AActor* Parent = GetOwner();
 	if (Parent)
 	{
-		// Find a new position for the object to go to
-		auto NewPos = Parent->GetActorLocation() +
-			FVector
-			(
-				FMath::FRandRange(-1, 1) *
-				MovimientoComun,
-				FMath::FRandRange(-1, 1) *
-				MovimientoComun,
-				FMath::FRandRange(-1, 1) *
-				MovimientoComun
-			);
-		// Update the object's position
-		Parent->SetActorLocation(NewPos);
+		// Get the current location of the owner
+		FVector CurrentLocation = Parent->GetActorLocation();
+
+		// Calculate the new position based on the movement speed
+		FVector NewLocation = CurrentLocation + FVector(-MovimientoComun, 0.0f, 0.0f * DeltaTime);
+
+		// Set the new position
+		Parent->SetActorLocation(NewLocation);
 	}
 }
 

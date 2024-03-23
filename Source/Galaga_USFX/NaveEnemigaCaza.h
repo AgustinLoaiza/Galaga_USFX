@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "NaveEnemiga.h"
+#include "ComponenteMovimientoNaves.h"
 #include "NaveEnemigaCaza.generated.h"
+
 
 /**
  * 
@@ -16,6 +18,7 @@ class GALAGA_USFX_API ANaveEnemigaCaza : public ANaveEnemiga
 
 private:
 	int cantidadBombas;
+
 
 public:
 	ANaveEnemigaCaza();

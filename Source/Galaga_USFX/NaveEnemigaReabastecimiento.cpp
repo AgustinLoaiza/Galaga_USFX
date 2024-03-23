@@ -17,7 +17,6 @@ ANaveEnemigaReabastecimiento::ANaveEnemigaReabastecimiento()
 void ANaveEnemigaReabastecimiento::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Mover(DeltaTime);
 }
 
 void ANaveEnemigaReabastecimiento::Mover(float DeltaTime)

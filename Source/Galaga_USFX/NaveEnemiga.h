@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "ComponenteMovimientoNaves.h"
 #include "NaveEnemiga.generated.h"
 
 UCLASS(abstract)
@@ -29,6 +30,9 @@ protected:
 	int tipoNave; //Cada valor numerico representa a un tipo de nave enemiga para el array
 	float experiencia; //experiencia que droppea
 	float energia; //vida
+
+	// Declaración del componente de movimiento de naves
+	UComponenteMovimientoNaves* MovimientoNavesComponent;
 
 public: //leer valores
 	FORCEINLINE float GetVelocidad() const { return velocidad; }
@@ -65,6 +69,8 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+
 
 public:	
 	// Called every frame

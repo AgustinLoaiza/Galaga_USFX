@@ -16,6 +16,7 @@ class GALAGA_USFX_API ANaveEnemigaEspia : public ANaveEnemiga
 
 private:
 	int rangoVision;
+
 public:
 	// Sets default values for this actor's properties
 	ANaveEnemigaEspia();

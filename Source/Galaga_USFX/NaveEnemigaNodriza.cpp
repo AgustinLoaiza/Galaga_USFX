@@ -17,7 +17,6 @@ ANaveEnemigaNodriza::ANaveEnemigaNodriza()
 void ANaveEnemigaNodriza::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Mover(DeltaTime);
 }
 
 void ANaveEnemigaNodriza::Mover(float DeltaTime)

@@ -30,7 +30,6 @@ void ANaveEnemigaEspia::Escapar()
 void ANaveEnemigaEspia::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Mover(DeltaTime);
 }
 
 
