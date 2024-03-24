@@ -12,12 +12,15 @@ class GALAGA_USFX_API UComponenteMovimientoNaves : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UComponenteMovimientoNaves();
 
 	UPROPERTY()
+	//Definimos la velocidad de las naves
 	float MovimientoComun;
+
+	float limiteInferiorX;
 
 protected:
 	// Called when the game starts

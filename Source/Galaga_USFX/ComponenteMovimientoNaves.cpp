@@ -12,6 +12,8 @@ UComponenteMovimientoNaves::UComponenteMovimientoNaves()
 
 	// ...
 	MovimientoComun = 2;
+
+	limiteInferiorX = -1600.0f;
 }
 
 
@@ -37,11 +39,19 @@ void UComponenteMovimientoNaves::TickComponent(float DeltaTime, ELevelTick TickT
 		// Get the current location of the owner
 		FVector CurrentLocation = Parent->GetActorLocation();
 
-		// Calculate the new position based on the movement speed
-		FVector NewLocation = CurrentLocation + FVector(-MovimientoComun, 0.0f, 0.0f * DeltaTime);
+		float MovimientoComunX=MovimientoComun* DeltaTime;
 
+		// Calculate the new position based on the movement speed
+		//FVector NewLocation = CurrentLocation + FVector(-MovimientoComun, 0.0f, 0.0f * DeltaTime);
+		FVector NewLocation = FVector(CurrentLocation.X - MovimientoComun, CurrentLocation.Y, CurrentLocation.Z);
 		// Set the new position
 		Parent->SetActorLocation(NewLocation);
+
+		//Limite del mapa
+		if (NewLocation.X < limiteInferiorX)
+		{
+			Parent->SetActorLocation(FVector(-300.0f, CurrentLocation.Y, CurrentLocation.Z)); 
+		}
 	}
 }
 

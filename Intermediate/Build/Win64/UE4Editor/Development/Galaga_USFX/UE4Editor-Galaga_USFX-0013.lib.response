@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-Galaga_USFX-0009.dll"
+/NAME:"UE4Editor-Galaga_USFX-0013.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\Galaga_USFXEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -54,4 +54,4 @@
 "C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX\NaveEnemigaReabastecimiento.gen.cpp.obj"
 "C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX\NaveEnemigaTransporte.gen.cpp.obj"
 "C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX\Default.rc2.res"
-/OUT:"C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX\UE4Editor-Galaga_USFX-0009.lib"
+/OUT:"C:\Users\User\Desktop\NewGalaga_USFX_L01\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX\UE4Editor-Galaga_USFX-0013.lib"

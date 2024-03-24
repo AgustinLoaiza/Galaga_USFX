@@ -53,7 +53,9 @@ void EmptyLinkFunctionForGeneratedCodeComponenteMovimientoNaves() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UComponenteMovimientoNaves_Statics::NewProp_MovimientoComun_MetaData[] = {
+		{ "Comment", "//Definimos la velocidad de las naves\n" },
 		{ "ModuleRelativePath", "ComponenteMovimientoNaves.h" },
+		{ "ToolTip", "Definimos la velocidad de las naves" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UComponenteMovimientoNaves_Statics::NewProp_MovimientoComun = { "MovimientoComun", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UComponenteMovimientoNaves, MovimientoComun), METADATA_PARAMS(Z_Construct_UClass_UComponenteMovimientoNaves_Statics::NewProp_MovimientoComun_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UComponenteMovimientoNaves_Statics::NewProp_MovimientoComun_MetaData)) };
@@ -87,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeComponenteMovimientoNaves() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UComponenteMovimientoNaves, 545317638);
+	IMPLEMENT_CLASS(UComponenteMovimientoNaves, 323214336);
 	template<> GALAGA_USFX_API UClass* StaticClass<UComponenteMovimientoNaves>()
 	{
 		return UComponenteMovimientoNaves::StaticClass();
