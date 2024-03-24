@@ -53,7 +53,7 @@ void AGalaga_USFXGameMode::BeginPlay()
 	FVector ubicacionInicialNavesTransportesNormales = FVector(-100.0f, -400.0f, 250.0f);
 	FVector ubicacionInicialNavesTransportes3000 = FVector(-100.0f, -200.0f, 250.0);
 
-	FRotator rotacionNave = FRotator(0.0f, 0.0f, 0.0f);
+	FRotator rotacionNave = FRotator(0.0f, 180.0f, 0.0f);
 	FRotator rotacionMeteoro = FRotator(0.0f, 0.0f, 0.0f);
 
 	//Generador de naves por medio de ciclos
