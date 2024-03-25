@@ -6,8 +6,10 @@
 // Sets default values
 ANaveEnemigaNodriza::ANaveEnemigaNodriza()
 {
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/Mallas/1710aa07ae28_nave_espacial_grand.1710aa07ae28_nave_espacial_grand'"));
 	mallaNaveEnemiga->SetStaticMesh(ShipMesh.Object);
+	GetActorRelativeScale3D();
+	SetActorScale3D(FVector(2.0f, 2.0f, 2.0f));
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 

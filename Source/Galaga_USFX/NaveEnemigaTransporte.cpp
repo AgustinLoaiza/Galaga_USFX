@@ -5,8 +5,12 @@
 
 ANaveEnemigaTransporte::ANaveEnemigaTransporte()
 {
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_NarrowCapsule.Shape_NarrowCapsule'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/Mallas/5eae13278901_nave_espacial_grand.5eae13278901_nave_espacial_grand'"));
 	mallaNaveEnemiga->SetStaticMesh(ShipMesh.Object);
+	GetActorRelativeScale3D();
+	SetActorScale3D(FVector(2.0f, 2.0f, 2.0f));
+
+	PrimaryActorTick.bCanEverTick = true; 
 
 }
 

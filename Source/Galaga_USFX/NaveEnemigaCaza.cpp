@@ -5,10 +5,12 @@
 
 ANaveEnemigaCaza::ANaveEnemigaCaza()
 {
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_TriPyramid.Shape_TriPyramid'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("StaticMesh'/Game/Mallas/e1d3aedca958_caza_estelar_StarWa.e1d3aedca958_caza_estelar_StarWa'"));
 	//// Create the mesh component
 	//mallaNaveEnemiga = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
 	mallaNaveEnemiga->SetStaticMesh(ShipMesh.Object);
+	GetActorRelativeScale3D();
+	SetActorScale3D(FVector(2.0f, 2.0f, 2.0f));
 
 	PrimaryActorTick.bCanEverTick = true;
 }
